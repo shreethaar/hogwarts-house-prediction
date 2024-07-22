@@ -26,7 +26,6 @@ charset-normalizer==3.3.2
 click==8.1.7
 cmake-format==0.6.13
 cmake-language-server==0.1.10
-cmake-lint==0.6.13
 cmake-parse==0.6.13
 cmakelang==0.6.13
 colorama==0.4.6
