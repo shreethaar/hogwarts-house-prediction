@@ -204,7 +204,7 @@ traitlets==5.14.3
 
 truststore==0.9.1
 typeguard==4.3.0
-typing_extensions==4.12.2
+
 
 
 ufw==0.36.2
