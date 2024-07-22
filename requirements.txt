@@ -169,7 +169,7 @@ pywal==3.3.0
 PyYAML==6.0.1
 pyzmq==25.1.2
 qasync==0.27.1
-QtPy==2.4.1
+
 
 Reflector==2023.6.28.0.36.1
 requests==2.32.3
