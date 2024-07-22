@@ -35,7 +35,7 @@ configobj==5.0.8
 contourpy==1.2.1
 cookiecutter==2.6.0
 cramjam==2.8.3
-crit==3.19
+crit==0.1
 cryptography==42.0.6
 ctfcli==0.0.7
 cycler==0.12.1
