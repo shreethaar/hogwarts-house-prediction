@@ -24,7 +24,6 @@ cffi==1.16.0
 chardet==5.2.0
 charset-normalizer==3.3.2
 click==8.1.7
-cmake-annotate==0.6
 cmake-format==0.6.13
 cmake-language-server==0.1.10
 cmake-lint==0.6.13
