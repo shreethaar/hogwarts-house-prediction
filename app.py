@@ -1,10 +1,8 @@
 from flask import Flask, request, jsonify, render_template
 import pickle
 import numpy as np
-from flask_frozen import Freezer
 
 app = Flask(__name__)
-freezer = Freezer(app)
 
 # Load the scaler and model
 with open('scaler.pkl', 'rb') as scaler_file:
@@ -73,10 +71,5 @@ def predict():
     house_name=house_mapping[prediction_int]
     return jsonify({'prediction':house_name})
 
-
-def url_generator():
-    yield '/'
-    
 if __name__ == '__main__':
     app.run(debug=True)
-    freezer.freeze()
