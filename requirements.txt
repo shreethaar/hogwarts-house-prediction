@@ -212,12 +212,12 @@ ujson==5.10.0
 unearth==0.16.1
 urllib3==1.26.19
 userpath==1.9.2
-validate==5.0.8
-validate-pyproject==0.18
+
+
 virtualenv==20.26.2
 virtualenv-clone==0.5.7
-volatility3==2.7.0
-waypaper==2.2
+
+
 wcwidth==0.2.13
 websockets==12.0
 Werkzeug==3.0.1
@@ -225,7 +225,7 @@ wheel==0.43.0
 WTForms==3.1.2
 xlrd==2.0.1
 XlsxWriter==3.1.9
-yara-python==4.5.0
+
 zipp==3.18.1
 zstandard==0.22.0
 
