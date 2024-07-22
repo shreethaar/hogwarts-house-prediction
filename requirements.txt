@@ -49,7 +49,7 @@ dnspython==2.6.1
 docstring-to-markdown==0.15
 docutils==0.21.2
 dulwich==0.22.1
-Emote==0.0.0
+
 et_xmlfile==1.1.0
 executing==2.0.0
 fastbencode==0.2
