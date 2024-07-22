@@ -116,7 +116,7 @@ mysql-connector-python==9.0.0
 mysqlx-connector-python==9.0.0
 nest_asyncio==1.6.0
 networkx==3.3
-nftables==0.1
+
 numpy==2.0.0
 openpyxl==3.1.5
 ordered-set==4.1.0
