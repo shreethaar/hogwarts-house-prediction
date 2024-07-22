@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry Potter Prediction Form</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Harry Potter Prediction Form</h1>
+        <form id="predictionForm" method="POST" action="/predict">
+            <label for="friends">Number of Best Friends:</label>
+            <input type="number" id="friends" name="friends" required>
+
+            <label for="leadership">Leadership Experience (yes/no):</label>
+            <select id="leadership" name="leadership" required>
+                <option value="">Select</option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+
+            <label for="hobbies">Hobbies:</label>
+            <select id="hobbies" name="hobbies" required>
+                <option value="">Select your hobby</option>
+                <option value="physical">Physical</option>
+                <option value="creative">Creative</option>
+                <option value="cerebral">Cerebral</option>
+                <option value="making-tinkering">Making/Tinkering</option>
+                <option value="community-activities">Community Activities</option>
+                <option value="collecting">Collecting</option>
+            </select>
+
+            <label for="inasis">Inasis:</label>
+            <select id="inasis" name="inasis" required>
+                <option value="">Select your inasis</option>
+                <option value="MAYBANK">MAYBANK</option>
+                <option value="PROTON">PROTON</option>
+                <option value="TRADEWINDS">TRADEWINDS</option>
+                <option value="MAS">MAS</option>
+                <option value="TNB">TNB</option>
+                <option value="YAB">YAB</option>
+                <option value="MUAMALAT">MUAMALAT</option>
+                <option value="BSN">BSN</option>
+                <option value="TM">TM</option>
+                <option value="BANK ISLAM">BANK ISLAM</option>
+                <option value="SIME DARBY">SIME DARBY</option>
+                <option value="PETRONAS">PETRONAS</option>
+                <option value="SME">SME</option>
+                <option value="PERSISIRAN SINTOK">PERSISIRAN SINTOK</option>
+                <option value="TAMAN UNI">TAMAN UNI</option>
+            </select>
+
+            <button type="submit">Submit</button>
+        </form>
+        <label id="outputLabel">Prediction Output:</label>
+        <div id="output"></div>
+    </div>
+
+    <script src="../static/script.js"></script>
+</body>
+</html>
+
