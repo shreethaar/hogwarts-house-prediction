@@ -64,7 +64,7 @@ fonttools==4.53.1
 Frozen-Flask==1.0.2
 gmpy2==2.2.0
 greenlet==3.0.3
-guicorn==22.0.0
+gunicorn==22.0.0
 h11==0.14.0
 hishel==0.0.30
 httpcore==1.0.5
