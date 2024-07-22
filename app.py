@@ -73,11 +73,10 @@ def predict():
     house_name=house_mapping[prediction_int]
     return jsonify({'prediction':house_name})
 
-if __name__ == '__main__':
-    app.run(debug=True)
 
 def url_generator():
     yield '/'
-
+    
 if __name__ == '__main__':
+    app.run(debug=True)
     freezer.freeze()
