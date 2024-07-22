@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('harrypotter7.jpg') no-repeat center center fixed; /* Replace 'harrypotter7.jpg' with your image URL */
+    background-size: cover;
+}
+
+.container {
+    width: 50%;
+    margin: 10px auto;
+    background-color: rgba(251, 251, 251, 0.9);
+    padding: 20px;
+    box-shadow: 0 0 10px;
+    position: relative;
+    z-index: 1;
+}
+
+h1 {
+    text-align: center;
+    color: #000000; /* Setting title color */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+    color: #000000; /* Setting label color */
+    font-size: 3ch;
+}
+
+input, select {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: #4c65af;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #df0aa6;
+}
+
+#outputLabel {
+    margin-top: 20px;
+    font-weight: bold;
+    display: none;
+}
+
+#output {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #eee;
+    border-radius: 5px;
+    display: none;
+}
+
