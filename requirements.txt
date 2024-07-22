@@ -207,7 +207,7 @@ typeguard==4.3.0
 
 
 
-ufw==0.36.2
+
 ujson==5.10.0
 unearth==0.16.1
 urllib3==1.26.19
